@@ -12,12 +12,6 @@ export default async function About({ }: Props) {
     return (
         <div>
             About
-
-            <ul>
-                {data.youtubes.map((e: any) => (
-                    <li key={e.id}>{e.title}</li>
-                ))}
-            </ul>
         </div>
     )
 }
